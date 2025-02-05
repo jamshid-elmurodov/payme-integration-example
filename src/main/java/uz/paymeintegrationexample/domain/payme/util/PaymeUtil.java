@@ -10,8 +10,8 @@ import java.util.Base64;
 import java.util.List;
 
 public class PaymeUtil {
-    private static final String username = "Paycom";
-    private static final String password = "XYiNSsb%WIIY5M7Vjm3J9bFpMiVjgmh8B5yT";
+    private static final String username = "YOUR_USERNAME";
+    private static final String password = "YOUR_PASSWORD";
 
     /**
      * Payme bizga summani tiyn ko'rinishida yuboradi lekin biz so'mda saqlaymiz
