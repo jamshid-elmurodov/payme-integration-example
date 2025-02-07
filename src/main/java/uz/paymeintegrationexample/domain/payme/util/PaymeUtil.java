@@ -12,6 +12,7 @@ import java.util.List;
 public class PaymeUtil {
     private static final String username = "Paycom";
     private static final String password = "XYiNSsb%WIIY5M7Vjm3J9bFpMiVjgmh8B5yT";
+    private static final String merchantId = "60e1b7b3b3d3d0001f1f3b7b";
 
     /**
      * Payme bizga summani tiyn ko'rinishida yuboradi lekin biz so'mda saqlaymiz
@@ -44,5 +45,17 @@ public class PaymeUtil {
         if (!username.equals(auth[0]) || !password.equals(auth[1])) {
             throw new PaymeException(PaymeError.INVALID_AUTHORIZATION);
         }
+    }
+
+    /**
+     * bu method bizga to'lov uchun link yaratadi
+     * bu link orqali foydalanuvchi to'lovni amalga oshiradi
+     */
+    public static String generatePaymentUrl(Long orderId, Long amount){
+        String str = String.format("m=%s;ac.order_id=%s;a=%s", merchantId, orderId, amount);
+
+        String encoded = Base64.getEncoder().encodeToString(str.getBytes());
+
+        return "https://checkout.paycom.uz/" + encoded;
     }
 }
