@@ -69,7 +69,7 @@ public class PaymeService {
             paymeTransaction.setState(PaymeTransactionState.PENDING_CANCELED);
             canceled = true;
         } else if(Objects.equals(paymeTransaction.getState(), PaymeTransactionState.PAID)){
-            // Agar tranzaksiya holati PAID bo'lmasa bu tranzaksiyani shunchaki "Paid canceled" qilib qo'yamiz
+            // Agar tranzaksiya holati PAID bo'lsa bu tranzaksiyani shunchaki "Paid canceled" qilib qo'yamiz
             paymeTransaction.setState(PaymeTransactionState.PAID_CANCELED);
             canceled = true;
         }

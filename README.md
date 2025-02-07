@@ -1,4 +1,6 @@
 # payme-integration-example
 Payme integration example in Java
 
-xatolik yoki takliflar uchun tg: @jamshid_elmurodov
+foydasi tekkan bo'lsa star bosib qo'ying birodar
+
+savol, xatolik va takliflar uchun tg: @jamshid_elmurodov
