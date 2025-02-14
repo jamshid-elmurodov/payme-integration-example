@@ -1,6 +1,6 @@
 # Payme.uz Merchant API Integration in Java  
 
-This project provides a **Java-based integration** with [Payme.uz Merchant API](https://developer.help.paycom.uz/protokol-merchant-api/), enabling seamless payment processing through Payme.uz. It implements API endpoints for transaction initialization, validation, and confirmation, following Payme.uz's official documentation.  
+This project provides a **Java-based integration** with [Payme.uz Merchant API](payme.uz), enabling seamless payment processing through Payme.uz. It implements API endpoints for transaction initialization, validation, and confirmation, following Payme.uz's official documentation.  
 
 ## ⭐ Show Some Love!  
 If you find this project useful, **don't forget to give it a star!** ⭐  
