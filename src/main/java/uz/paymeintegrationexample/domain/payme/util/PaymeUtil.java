@@ -11,8 +11,8 @@ import java.util.List;
 
 public class PaymeUtil {
     private static final String username = "Paycom";
-    private static final String password = "XYiNSsb%WIIY5M7Vjm3J9bFpMiVjgmh8B5yT";
-    private static final String merchantId = "60e1b7b3b3d3d0001f1f3b7b";
+    private static final String password = "";
+    private static final String merchantId = "";
 
     /**
      * Payme bizga summani tiyn ko'rinishida yuboradi lekin biz so'mda saqlaymiz
